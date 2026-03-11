@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enróllate | Burritos con El sabor por delante</title>
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo"><img src="logo.png" alt="Enróllate Logo" onclick="window.location.href='index.html'"></div>
+        <ul class="nav-links" id="navMenu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="fundadores.html">Fundadores</a></li>
+            <li><a href="menu.html">Menú</a></li>
+            <li><a href="ubicacion.html">Ubicación</a></li>
+            <li><a href="publicidad.html" class="active">Publicidad</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+        <div class="menu-toggle" id="menuToggle" onclick="toggleMobileMenu()">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <section class="page-section active-section">
+        <div class="container">
+            <h2>Campaña Publicitaria</h2>
+            <!-- Carrusel de imágenes; para añadir nuevas fotos, sólo agregue más etiquetas <img> dentro de .carousel-track -->
+            <div class="carousel" id="publicityCarousel">
+                <div class="carousel-track">
+                    <img src="img/campana-publicitaria.jpg" alt="Foto 1" class="carousel-image">
+                    <img src="img/Menu.jpg" alt="Foto 2" class="carousel-image">
+                    <img src="img/TarjetaFidelidad.jpg" alt="Foto 3" class="carousel-image">
+                    <img src="img/Etiqueta.jpg" alt="Foto 4" class="carousel-image">
+                    <img src="img/Etiqueta2.jpg" alt="Foto 5" class="carousel-image">
+                    <!-- <img src="img/otra-foto.jpg" alt="Foto 4" class="carousel-image"> -->
+                </div>
+            </div>
+            <h2>Spot de Radio</h2>           
+            <div class="audio-container">
+                <audio controls class="custom-audio">
+                    <source src="spot-radio.mp3" type="audio/mpeg">
+                    tu navegador no soporta el elemento de audio.
+                </audio>
+            </div>
+            <h2>Video Publicitario</h2>
+            <video controls>
+                <source src="video-publicitario.mp4" type="video/mp4">
+                Tu navegador no soporta el elemento de video.
+            </video>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Enróllate Tijuana. Todos los derechos reservados.</p>
+        <p><b>&copy; Creado by: CodexaMx</b></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
