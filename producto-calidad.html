@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Producto y Calidad - Enróllate</title>
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo"><img src="logo.png" alt="Enróllate Logo" onclick="window.location.href='index.html'"></div>
+        <ul class="nav-links" id="navMenu">
+            <li><a href="index.html" class="active">Inicio</a></li>
+            <li><a href="fundadores.html">Fundadores</a></li>
+            <li><a href="menu.html">Menú</a></li>
+            <li><a href="ubicacion.html">Ubicación</a></li>
+            <li><a href="publicidad.html">Publicidad</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn" onclick="toggleDropdown()">Acerca de</a>
+                <div class="dropdown-content">
+                    <a href="nosotros.html">Nosotros</a>
+                    <a href="producto-calidad.html">Producto y Calidad</a>
+                    <a href="operaciones.html">Operaciones y Tecnología</a>
+                    <a href="bolsa-trabajo.html">Bolsa de Trabajo</a>
+                    <a href="mejora-continua.html">Mejora Continua</a>
+                </div>
+            </li>
+        </ul>
+        <div class="menu-toggle" id="menuToggle" onclick="toggleMobileMenu()">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <section class="page-section active-section">
+        <div class="container">
+            <h2>Producto y Calidad</h2>
+            <div class="section">
+                <h3>Especificaciones del Producto</h3>
+                <p>Nuestro producto consiste en burritos artesanales preparados al momento, diseñados para ofrecer una opción alimenticia rápida, accesible y de alta calidad. Elaborados con tortilla de harina de trigo o de espinaca, cada burrito combina ingredientes frescos y balanceados en dos líneas de menú: tradicional, como papas con bistec, y vegetariana, como chile poblano con vegetales. Cada pieza mantiene una proporción óptima en donde el 60% del guiso principal contiene proteínas ya sea la opción tradicional o la opción vegetariana, el 30% de vegetales son frescos como la espinaca, lechuga, y 10% de complementos como arroz y salsas artesanales, logrando así un equilibrio ideal entre sabor y valor nutricional.</p>
+                <figure class="section-image">
+                    <img src="img/ESPECIFICACIONESDELPRODUCTO.png" alt="Burrito calidad Enróllate">
+                    <figcaption>Ingredientes frescos y presentación cuidada.</figcaption>
+                </figure>
+
+            </div>
+            <div class="section">
+                <h3>Materia Prima</h3>
+                <p>La materia prima está estructurada para garantizar la disponibilidad y cubrir la demanda exacta, para esto se requieren  7 paquetes grandes de tortilla harina blanca de 24 piezas cada uno (para la línea tradicional) y 9 paquetes de tortilla harina con espinaca de 10 piezas cada uno (para la línea saludable).
+
+Proteínas y Leguminosas
+Se utilizan 6.5 kg de bistec de res magra, 5 kg de chicharrón y 8 kg de frijoles peruanos (peso seco). El volumen y frescura se complementan con 9 kg de tomate, 13 kg de papas, 10 kg de cebolla, 4 kg de chile poblano, 4 kg de pepino, 3 kg de zanahoria, 5.5 kg de espinacas y 6 lechugas iceberg, destacando estas últimas en la línea saludable.
+
+Lácteos, Grasas y Sabor
+Incluye 4 kg de queso manchego, 2 litros de aceite vegetal, 2 litros de aceite de oliva, 1 galón de aderezo ranch y 4 litros de salsa verde. El sabor se define por una mezcla de ajo, sal, especias (pimienta, comino, orégano, páprika) y variedad de chiles (árbol y guajillo), bajo estándares de alta calidad para ambos segmentos de clientes.
+</p>
+                <figure class="section-image">
+                    <img src="img/MATERIA PRIMA.png" alt="Productos frescos Enróllate">
+                    <figcaption>productos frescos y de alta calidad.</figcaption>
+                </figure>
+            </div>
+            <div class="section">
+                <h3>Selección de Proveedores</h3>
+                <p>"La Canasta", ubicado en Blvrd Federico Benítez López, Yamille, 22114 Tijuana, B.C. (Tel: +52 664 496 1271). Este distribuidor nos abastecerá de manera integral tanto los productos de abarrotes como las carnes necesarias para la operación.
+</p>
+<figure class="section-image">
+                    <img src="img/proveedor.png" alt="Proovedores con altos estandares de calidad Enróllate">
+                    <figcaption>Proovedores con altos estandares de calidad.</figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Enróllate Tijuana. Todos los derechos reservados.</p>
+        <p><b>&copy; Creado by: CodexaMx</b></p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

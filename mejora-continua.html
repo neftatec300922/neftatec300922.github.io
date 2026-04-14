@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mejora Continua - Enróllate</title>
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo"><img src="logo.png" alt="Enróllate Logo" onclick="window.location.href='index.html'"></div>
+        <ul class="nav-links" id="navMenu">
+            <li><a href="index.html" class="active">Inicio</a></li>
+            <li><a href="fundadores.html">Fundadores</a></li>
+            <li><a href="menu.html">Menú</a></li>
+            <li><a href="ubicacion.html">Ubicación</a></li>
+            <li><a href="publicidad.html">Publicidad</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn" onclick="toggleDropdown()">Acerca de</a>
+                <div class="dropdown-content">
+                    <a href="nosotros.html">Nosotros</a>
+                    <a href="producto-calidad.html">Producto y Calidad</a>
+                    <a href="operaciones.html">Operaciones y Tecnología</a>
+                    <a href="bolsa-trabajo.html">Bolsa de Trabajo</a>
+                    <a href="mejora-continua.html">Mejora Continua</a>
+                </div>
+            </li>
+        </ul>
+        <div class="menu-toggle" id="menuToggle" onclick="toggleMobileMenu()">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <section class="page-section active-section">
+        <div class="container">
+            <h2>Mejora Continua</h2>
+            <div class="section">
+                <h3>Estrategia de Mejora Continua</h3>
+                <p>El proceso de mejora continua de Enrollate se basa en la evaluación constante del servicio y calidad del producto en los puntos de venta, asegurando que cada retroalimentación se convierta en una acción correctiva y lograr que el producto cumpla las necesidades y expectativas del cliente.</p>
+                <p>En Enróllate Burrito Factory, la mejora continua es el corazón de nuestra filosofía empresarial. Implementamos metodologías como Kaizen y Six Sigma para optimizar procesos, reducir costos y aumentar la satisfacción del cliente. Realizamos revisiones periódicas de nuestros productos, servicios y operaciones, incorporando feedback de clientes y empleados para innovar constantemente. Nuestro compromiso es evolucionar día a día, manteniendo la excelencia en cada burrito que servimos.</p>
+            </div>
+            <div class="section">
+                <h3>Opinión de Clientes</h3>
+                <div class="testimonials">
+                    <div class="testimonial">
+                        <p>"¡Los mejores burritos de Tijuana! Siempre frescos y deliciosos."</p>
+                        <cite>- María González</cite>
+                    </div>
+                    <div class="testimonial">
+                        <p>"Servicio rápido y amable. Mis favoritos son los veganos."</p>
+                        <cite>- Carlos Ramírez</cite>
+                    </div>
+                    <div class="testimonial">
+                        <p>"Calidad consistente en cada visita. ¡Recomendado!"</p>
+                        <cite>- Ana López</cite>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Enróllate Tijuana. Todos los derechos reservados.</p>
+        <p><b>&copy; Creado by: CodexaMx</b></p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

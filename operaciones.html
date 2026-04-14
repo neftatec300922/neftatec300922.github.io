@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operaciones y Tecnología - Enróllate</title>
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo"><img src="logo.png" alt="Enróllate Logo" onclick="window.location.href='index.html'"></div>
+        <ul class="nav-links" id="navMenu">
+            <li><a href="index.html" class="active">Inicio</a></li>
+            <li><a href="fundadores.html">Fundadores</a></li>
+            <li><a href="menu.html">Menú</a></li>
+            <li><a href="ubicacion.html">Ubicación</a></li>
+            <li><a href="publicidad.html">Publicidad</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn" onclick="toggleDropdown()">Acerca de</a>
+                <div class="dropdown-content">
+                    <a href="nosotros.html">Nosotros</a>
+                    <a href="producto-calidad.html">Producto y Calidad</a>
+                    <a href="operaciones.html">Operaciones y Tecnología</a>
+                    <a href="bolsa-trabajo.html">Bolsa de Trabajo</a>
+                    <a href="mejora-continua.html">Mejora Continua</a>
+                </div>
+            </li>
+        </ul>
+        <div class="menu-toggle" id="menuToggle" onclick="toggleMobileMenu()">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <section class="page-section active-section">
+        <div class="container">
+            <h2>Operaciones y Tecnología</h2>
+            <div class="section">
+                <h3>Tecnología en el Proceso de Producción</h3>
+                <p>La tecnología en Enrollate es básica y accesible. Se utilizan estufa, tanque de gas, sartenes y ollas para la cocción y preparación de carnes, arroz, frijoles y complementos. Estos equipos aseguran una producción eficiente y en tiempos adecuados para el emprendimiento.</p>
+                <figure class="section-image">
+                    <img src="img/tecn1.png" alt="Tecnologia 1 Enróllate">
+                    <figcaption>Infrastrucura de alta calidad .</figcaption>
+                </figure>
+                <p>Para la conservación y transporte, se utilizan recipientes y una hielera que mantiene la temperatura de los burritos. Esta herramienta es clave para facilitar el traslado a los hospitales, conservando la calidad del producto hasta su venta.</p>
+                <figure class="section-image">
+                    <img src="img/tecn2.png" alt="Tecnologia 2 Enróllate">
+                    <figcaption>Transporte de productos.</figcaption>
+                </figure>
+                <p>Enrollate optimiza su gestión mediante el uso de herramientas digitales móviles y plataformas de mensajería instantánea. Estos recursos facilitan la comunicación interna, la administración de pedidos y la coordinación logística en los puntos de venta, garantizando una operativa ágil y eficiente sin incurrir en costos de sistemas complejos.</p>
+                <figure class="section-image">
+                    <img src="img/tecn3.png" alt="Tecnologia 3 Enróllate">
+                    <figcaption> Gestión digital eficiente.</figcaption>
+                </figure>
+            
+            </div>
+            <div class="section">
+                <h3>Diagrama de Proceso de Producción</h3>
+                <p><img src="img/diagrama-proceso.png" alt="Diagrama de proceso de producción" style="max-width: 100%; height: auto;"></p>
+                <p>El proceso comienza con la inspección y el almacenamiento de la materia prima, seguido de la limpieza y desinfección de vegetales, donde se gestionan los desechos y su evacuación. Posteriormente, se elaboran los guisados mediante la cocción de carnes y verduras, manteniendo un control sobre las mermas y residuos generados. Una vez listos, los alimentos se resguardan en recipientes térmicos tras la limpieza de los utensilios utilizados. Para garantizar la calidad, se pesa cada porción con una báscula gramera antes del armado y enrollado manual de la tortilla. Finalmente, el producto se empaca en papel aluminio térmico al momento del pedido para su venta en las clínicas 1, 7 y 20, concluyendo la jornada con la limpieza general del local y el retiro de desechos para reiniciar el ciclo al día siguiente.</p>
+            </div>
+            <div class="section">
+                <h3>Mantenimiento de Equipo</h3>
+                <p>Nuestro equipo de mantenimiento preventivo y correctivo asegura el funcionamiento óptimo de todas las máquinas y equipos. Realizamos inspecciones diarias, calibraciones mensuales y reparaciones programadas para evitar interrupciones en la producción. Utilizamos protocolos estandarizados y capacitamos continuamente a nuestro personal para mantener altos estándares de seguridad y eficiencia operativa.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Enróllate Tijuana. Todos los derechos reservados.</p>
+        <p><b>&copy; Creado by: CodexaMx</b></p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
